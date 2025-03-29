@@ -10,7 +10,11 @@ This procedure can all be performed in a week.
 ### Materials
 - 24-well plate for cell culture
 - For cryo-fixation: Liquid nitrogen, Dry ice, Acetone, Eppendorf tubes 5ml, Syringe
-- For anchoring: Sodium bicarbonate (1M solution), GMA. 
+- For anchoring: Sodium bicarbonate (1M solution), glycidyl methacrylate (GMA).
+- For monomer: Sodium acrylate, acrylamide, bis-acrylamide, 10x PBS
+- For denaturation: Sodium dodecyl sulfate (SDS), sodium chloride (NaCl), Tris
+- For staining: Bovine serum albumin (BSA), antibodies
+- For imaging: Coverslips, Pold-D-Lysine (PDL)
 
 ### Equipment
 - For cryo-fixation: Plunging arm, Thermos as liquid nitrogen container, Cryo-gloves, Glasses
@@ -27,7 +31,7 @@ This procedure can all be performed in a week.
 
 ### **Cryo-fixation**
 
-This part of the protocol takes ispiration from cryo-electron microscopy protocols, in particular from the article of [Laporte et al., *Nat Methods* 19, 216–222 (2022)](https://doi.org/10.1038/s41592-021-01356-4). In the conventional fixing procedure we would usually just put for 15 minutes a fixing solution, i.e. 3% PFA, 0.1% Glutaraldehyde in PBS, and then wash at least 3 times with PBS. 
+This part of the protocol takes ispiration from cryo-electron microscopy protocols, in particular from the article of [Laporte et al., *Nat Methods* 19, 216–222 (2022)](https://doi.org/10.1038/s41592-021-01356-4). In the conventional fixing procedure we would usually just put for 15 minutes a fixing solution, i.e. 3% PFA, 0.1% Glutaraldehyde in PBS, and then wash at least 3 times with PBS, and follow up with a 5 minute incubation in PBS with 0.1% Triton for permeabilization. 
 
 4. **Materials preparation**
    
@@ -65,7 +69,7 @@ This part of the protocol takes ispiration from cryo-electron microscopy protoco
 12. Close the lid and put the Eppendorf into the dry ice box.
     
     Use a hammer to help you put it inside.
-13.  Leave it at RT to be shaken at room temperature.
+13.  Place the cooler filled with dry ice on a rocking shaker until the next day.
 
 <img src="./MDimages/Cryofixation.png" alt="Process of cryofixation as described by Laporte (2022)" width="500"/>
 
@@ -103,7 +107,7 @@ In a standard ExM experiment, target biomolecules (e.g., proteins and nucleic ac
 
     **!!** Prepare an ice bucket as well on which to put the petri after 5/10 minutes of cooling down. 
 
-22. Aspirate the PBS from the well and put 1 ml of monomer solution
+22. Aspirate the PBS from the well and put 1 ml of monomer solution to incubate over the sample
 
     **Critical Point** - *Pro tip*: This step allows us for the monomer solution to start diffusing onto the whole cell surface of the coverslip before the gel polymerization. 
 
@@ -152,7 +156,7 @@ Then we follow this protocol:
 
 3. **Secondary antibodies staining** → We can follow the product protocol for the secondary antibodies staining at the desired wavelength. 
    
-   In our case, Matt prepares its secondary antibodies, creating a final concentration of 5 μg/ml for the following wavelengths: 
+   In our case, Matt conjugates fluorophore to his secondary antibodies, and used them at a final concentration of 5 μg/ml for the following wavelengths: 
 
    - Anti-Goat for the GFP - Star635p
    - Anti-Mouse for the MTCO1 - CF568
@@ -172,7 +176,7 @@ To avoid possible drift of the gel slides or any possible deformation caused by 
 
 ### **Post fixation**
 
-After the staining, we can put the glass in 50ml tubes filled with water as the final wash (from now on be careful not to use PBS or any saline solution, as it will deform the dimension of the gels) for half an hour. We can then post-fix the samples by putting them in a 6% PFA water solution for ∼ 30 min. The post-fixation improves antibody retention, allowing us for a better imaging over the next days. \
+After the staining, we can put the samples in 50ml tubes filled with water as the final wash for half an hour. We can then post-fix the samples by putting them in a 6% PFA water solution for ∼ 30 min. The post-fixation improves antibody retention, allowing us for a better imaging over the next days. \
 Since we use a 6-well plate, we will put 2 ml of solution for each well. Moreover, be careful to prepare the appropriate amount starting from the product concentration. For example in our case, since we had to prepare 8 ml of solution with a 32% PFA solution, we put 1.5 of the latter and 6.5 ml of water. 
 
 **!!** All the steps involving PFA are to be made with gloves under the fume hood, as always.
@@ -182,15 +186,15 @@ After this, we can put the samples back into 50 ml water tubes.
 ### **Pre-check at the microscope**
 
 The last important step of our protocol consists in identifying the gel surface with the cells - since the gel thickness is too much to still be able to image if it doesn't touch the coverslip.\
-In order to do that we use a temporal glass 25 mm coverslip in which we put our sample. For imaging, we use a metal holder that keeps us the coverslip in place, as shown in the picture. If you don't manage to see the cells, then flip the gel with a brush and you should be able to see them. 
+In order to do that we use a uncoated glass 25 mm coverslip in which we put our sample. For imaging, we use a metal holder that keeps us the coverslip in place, as shown in the picture. If you don't manage to see the cells, then flip the gel with a brush and you should be able to see them. 
 
 <img src="./MDimages/Metalholder.jpg" alt="Metal Holder for glass coverslips" width="500"/>
 
-After knowing the right side, you can place the gel onto the sticky coverslips and place them in the 6-well plate with 2/3 ml of water. 
+After knowing the right side, you can place the gel onto the sticky coverslips and place them in the 6-well plate with 2 ml of water. 
 
 ### **Imaging**
 
-For the imaging part, take the coverslips with the gel on top from its well and place it into the metal holder. Use the same water for the well to completely submerge the gel in the holder as well. At this point, everything is ready for imaging.
+For the imaging part, take the coverslips with the gel on top from its well and place it into the metal holder. Use the same water for the well to completely submerge the gel in the holder as well to minimize further changes in the gel size. At this point, everything is ready for imaging.
 
 **!!** Once done with the imaging, pay attention to cleaning the bottom of the coverslip from any oil residue before putting it again into the water well. Since they are not in PBS, the samples degrade pretty fast, so you have to image them in the immediately following days after staining, without waiting for more than necessary. 
 
