@@ -168,6 +168,10 @@ In a standard ExM experiment, target biomolecules (e.g., proteins and nucleic ac
     - 50 µl of 2% Bisacrylamide
     - 100 µl of 10x PBS
 
+<a href="https://youtu.be/3YyEKSIz6eA">
+  <img src="https://img.youtube.com/3YyEKSIz6eA/0.jpg" alt="Gelation" width="480" height="360" border="10" />
+</a>
+
 21. Put the microscope glass slide in a petri dish with the surface bottom covered by parafilm and put them at -80°C to cool down.
 
     **!!** Prepare an ice bucket as well on which to put the petri after 5/10 minutes of cooling down.
